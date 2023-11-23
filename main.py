@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request,url_for,redirect
 import smtplib
-import requests
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
